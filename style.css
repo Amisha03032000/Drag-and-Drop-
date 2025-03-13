@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left, #right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dashed;
+    border-color: aliceblue;
+    align-items: center;
+
+}
+
+.list{
+    display: flex;
+    background-color: rgb(228, 82, 160);
+    margin: 30px;
+    height: 40px;
+    width: 120px;
+    align-items: center;
+    text-align: center;
+    padding-left:40px;
+    color: aliceblue;
+}
